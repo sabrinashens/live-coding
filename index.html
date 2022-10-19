@@ -13,8 +13,20 @@
     As an example:
   </p>
   <p>1+1@220 2@220*2 1*3@270</p>
+  <p>In addition to that, you can choose the osc type by adding "saw/", "tri/", or "sqr/", like:</p>
+  <p>
+  saw/1+1@220 tri/2@220*2 sqr/1*3@270
+  </p>
+  <p>Note that the default osc type is "sine"</p>
+  <p>
+  Now you try:
+  </p>
   <button>re-evaluate</button>
-  <input type="text" id="code">
+
+  <input type="text" id="code"><br><br>
+  
+  <label for = "tempo">Choose the tempo:</label>
+  <input type="range" id = "tempo" min=1 max=20 value="10">
 </body>
 <script src="main.js"> </script>
 
